@@ -1,12 +1,12 @@
 header {
-    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    background-image: url("Picture/blue-sky-with-small-clouds.jpg");
     color:navy;
     text-align:center;
     padding:5px;	 
 }
 nav {
     line-height:30px;
-    background-image: url("http://www.finzionimagazine.it/wp-content/uploads/2013/06/music-not-big.jpg");
+    background-image: url("Picture/music-not-big.jpg");
     height:290px;
     width:140px;
     float:left;
@@ -18,7 +18,7 @@ section {
     padding:10px;	 	 
 }
 footer {
-    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    background-image: url("Picture/blue-sky-with-small-clouds.jpg");
     color:navy;
     clear:both;
     text-align:center;
@@ -33,7 +33,7 @@ footer {
     column-gap: 40px;
 }
 .button {
-    background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=30000&soubor=blue-sky-with-small-clouds.jpg&id=26990");
+    background-image: url("Picture/blue-sky-with-small-clouds.jpg");
     border: none;
     color: white;
     padding: 10px 32px;
