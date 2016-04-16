@@ -33,9 +33,15 @@ footer {
     column-gap: 40px;
 }
 .button {
-    background-image: url("Picture/blue-sky-with-small-clouds.jpg");
+    height: 40px;
+    width: 90%;
+    background: #008CBA; /* For browsers that do not support gradients */
+    background: linear-gradient(#008CBA, #FFFFFF); /* Standard syntax (must be last) */
+   /* background-image: url("Picture/blue-sky-with-small-clouds.jpg");*/
+    border-radius: 15px;
     border: none;
     color: white;
+    text-shadow: 1px 1px 5px #008CBA, 0 0 25px blue, 0 0 5px darkblue;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -46,6 +52,7 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 .button1 {
     background-color: blue; 
     color: black; 
@@ -55,4 +62,15 @@ footer {
 .button1:hover {
     background-color: #008CBA;
     color: white;
+}
+#interactive-button {
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #008CBA; 
+    text-shadow: 1px 1px 5px #008CBA, 0 0 25px blue, 0 0 5px darkblue;   
+}
+#interactive-button:hover {
+    color: white;
+    transform: rotate(10deg);
 }
