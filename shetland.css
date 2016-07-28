@@ -1,0 +1,92 @@
+@media (max-device-width: 320px) {
+  header {
+    background-image: none;
+  }
+  
+  .section {
+    width:50%;
+    float:left;
+    padding:5px;
+  }
+  header,
+  section,
+  .footer {
+    position: center;
+    width: auto;
+  }
+  #choir,
+  nav {
+   width: 90%;
+   position: center;
+ }
+ .newspaper {
+   -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+       
+    width: 95%;
+    float: left;
+ }
+}
+
+@media (max-device-width: 960px) {
+  header {
+    background-image: none;
+  }
+  
+  .section {
+    width:50%;
+    float:left;
+    padding:5px;
+  }
+  header,
+  section,
+  .newspaper,
+  .footer {
+    position: center;
+    width: auto;
+  }
+  #choir,
+  nav {
+   width: 90%;
+   position: center;
+   color: orange;
+ }
+ .newspaper {
+   -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+       
+    width: 95%;
+    float: left;
+    margin-right: 3%;
+ }
+}
+@media  (min-width: 1366px) {
+#page {
+    margin: 20px auto;
+    padding: 0 1em;
+    max-width: 85.37em;      /* 1366px / 16px = 85.37em */
+}
+  header,
+  section,
+  .newspaper,
+  .footer {
+    float: left;
+    width: auto;
+  }
+  #choir,
+  nav {
+   width: 90%;
+   position: center;
+ }
+ .newspaper {
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+       
+    width: 95%;
+    float: left;
+    margin-right: 3%;
+ }
+}
